@@ -15,6 +15,7 @@ namespace VisualizeMathFunctions
 
             Console.WriteLine($"The value of pi cubed is: {mathFunctions.Cube(Math.PI):F3}");
             //cw tab tab for Console.WriteLine()
+            //$ - string interpolation
             //:F3 three decimal points
             
         }
