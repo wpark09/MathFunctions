@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace MathFunctions
 {
-    public class Class1
+    public class MathFunctionsClass
     {
+        // Square :: Double -> Double
+        public double Square (double value)
+        {
+            return value * value;
+        }
+
+        public double Cube(double value)
+        {
+            return Math.Pow(value, 3);
+        }
     }
 }
